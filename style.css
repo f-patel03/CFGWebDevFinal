@@ -190,6 +190,14 @@ body {
     accent-color: rgb(136, 219, 134);
 }
 
+.opinion-form {
+    width: 25%;
+    margin: 3% 0% 3% 5%;
+}
+.opinion-form .form-check {
+    margin: 2%;
+}
+
 .footer {
     position: sticky;
     left: 0;
