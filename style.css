@@ -1,0 +1,262 @@
+body {
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzyt689UEJ36Jx8Q7Ei8Yi3KL5YaEIdYI6kD2BCEo5ge7uzzqQ);
+    font-size: 110%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.homepage-header {
+    font-size: 60px;
+    color: rgb(194, 0, 0);
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+.header {
+    overflow: hidden;
+    background-color: #076220;
+    padding: 20px 10px;
+    border-radius: 4px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold
+}
+.header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#india:hover {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfE2aaTiS34_NIKDcftmD-hQ7_h9UaPKcOHA&s);
+    background-size: 100%;
+    color: transparent;
+}
+#nigeria:hover {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAACVBMVEUAh1H///8AfDudGzJvAAABX0lEQVR4nO3QQQ0AIAzAwIF/0Yi4ZA/Sc9DObLlnzV2L2tM+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+0j7SPtI+8uW+B3AYRFPn9q1JAAAAAElFTkSuQmCC);
+    background-size: 100%;
+    color: transparent;
+}
+#pakistan:hover {
+    background-image: url(data:image/png;base64,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);
+    background-size: 100%;
+    color: transparent;
+}
+.image {
+    width: 450px;
+    border-radius: 1.5rem;
+    height: 300px;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+}
+.image:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.header a:hover {
+    background-color: #000000; /* need to change */
+    color: white; /*changes font colour, only add if white is not complementary to chosen hover colour */
+}
+.header a.active {
+    background-color: #d75619; /* need to change */
+    color: bisque;
+}
+.header .search-container {
+    float: right;
+    border-radius: 4px;
+}
+.header input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 12px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+.header .search-container button {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 12px;
+    margin-right: 16px;
+    font-size: 17px;
+    background: #F8766D;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.header .search-container button:hover {
+    background:rgb(62, 184, 60);
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+    height: auto;
+    margin:0 auto;
+    box-sizing:content-box;
+    padding:0;
+    text-align: center;
+    font-size: 1.75vw;
+    display:block;
+}
+.intro-heading {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.intro-heading-pakistan {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: rgb(203, 179, 147);
+}
+.intro-heading-nigeria {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: rgb(255, 255, 255);
+}
+.intro-text {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    visibility: hidden;
+    height: auto;
+}
+.intro-text-nigeria {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 25%;
+    visibility: hidden;
+    height: auto;
+    font-size: 90%;
+}
+.intro img {
+    transition:opacity 0.26s ease-out;
+    border-radius:4px;
+}
+.intro:hover img:hover, .intro:active img:active {
+    opacity:0.3;
+}
+.intro img:hover + .intro-text {
+    visibility: visible;
+}
+.intro img:hover + .intro-text-nigeria {
+    visibility: visible;
+}
+
+.recipe-card {
+    background-color: rgb(211, 253, 210);
+    padding: 3%;
+    margin: 2% 4%;
+    border-color: #000000;
+    border-width: 1.5px;
+    border-style: dashed;
+    border-radius: 6px;
+}
+.recipe-img {
+    float: right;
+    border-radius: 4px;
+}
+.recipe-card ul {
+    margin: 0;
+    list-style-type: none;
+}
+.recipe-card input[type=checkbox] {
+    accent-color: rgb(136, 219, 134);
+}
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    width: 100%;
+    background-color:#076220;
+    color: white;
+    text-align: left;
+    border-radius: 4px;
+    padding: 20px 10px;
+}
+.footer svg {
+    margin: 4px 3px 0px 3px;
+}
+.footer p {
+    margin: 6px 0px 0px 0px;
+}
+
+.move {
+    animation: RightToLeft 20s infinite linear;
+}
+@keyframes RightToLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translate(-50%);
+    }
+}
+.signup {
+    color: #FFFFFF;
+    background: #399652;
+    font-size: 30px;
+    padding: 15px 20px;
+    display: block;
+    margin: 10px 0px auto;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.signup:hover {
+    opacity: 0.9;
+    background: #C2170B;
+    color: white;
+    cursor: pointer;
+}
+  
+#top_btn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(212, 85, 39); /* need to change */
+    color: white; /* need to change */
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 4px; 
+    font-size: 18px; 
+} 
+#top_btn:hover {
+    background-color: rgb(232, 146, 115); /* need to change */
+}
